@@ -1,6 +1,6 @@
 package org.malarcondev.solid;
 
-public class Square {
+public class Square implements Shape{
     private final int lenght;
 
     public Square(int lenght) {
@@ -9,5 +9,10 @@ public class Square {
 
     public int getLenght() {
         return lenght;
+    }
+
+    @Override
+    public double area() {
+        return Math.PI * Math.pow(getLenght(), 2);
     }
 }
