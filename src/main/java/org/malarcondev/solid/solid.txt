@@ -1,0 +1,26 @@
+SOLID PRINCIPLES
+
+ ➡️ Single Responsibility
+    Cada clase debe tener un solo propósito y
+    no estar llena de funcionalidad excesiva.
+
+ ➡️ Open Closed
+    Las clases deben estar abiertas para extensión,
+    cerradas para modificación.
+
+    En otras palabras, no debería tener que volver a
+    escribir una clase existente para implementar nuevas
+    características.
+
+ ➡️ Liskov Substitution
+    Esto significa que cada subclase o clase derivada
+    debe ser sustituible por su clase base o padre.
+
+ ➡️ Interface Segregation
+    Las interfaces no deberían obligar a las clases a
+    implementar lo que no pueden hacer. Las interfaces
+    grandes deben dividirse en pequeñas.
+
+ ➡️ Dependency Inversion
+    Los componentes deberían depender de abstracciones,
+    no de concreciones.
